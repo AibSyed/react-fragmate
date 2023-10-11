@@ -19,15 +19,21 @@ npm install react-fragmate
 ## Usage
 
 1. **Importing**:
-    Import the `Fragmate` function from the `react-fragmate` package in your file.
+
+    Begin by importing the `Fragmate` function from the `react-fragmate` package:
+
     ```javascript
     import { Fragmate } from 'react-fragmate';
     ```
 
 2. **Utilization**:
-    Utilize the `Fragmate` function to process the HTML content. The function will automatically remove any unwanted `deleteDiv` tags from the given HTML string.
+
+    When using `dangerouslySetInnerHTML`, it can add an unwanted `div` wrapper around your HTML content. React-Fragmate simplifies HTML parsing by introducing the `Fragmate` function.
+
+    To use it, follow these steps:
 
     ```javascript
+    // Use the <deleteDiv> tag to specify content that should be retained
     const htmlString = "<deleteDiv>Some content</deleteDiv>";
     const cleanedHtml = Fragmate(htmlString);
     
@@ -37,8 +43,8 @@ npm install react-fragmate
 
 ## Contributing
 
-We welcome contributions from the community. If you'd like to contribute, please fork the repository, make your changes, and open a pull request. We'd be happy to discuss and review your changes to get them merged in!
+    We encourage contributions from the community to enhance React-Fragmate. If you'd like to contribute, please fork the repository, make your changes, and open a pull request. We value your input and are eager to review and discuss your contributions.
 
 ## License
 
-React-Fragmate is [MIT licensed](./LICENSE).
+React-Fragmate is released under the [MIT License](./LICENSE), providing you with the freedom to use, modify, and distribute it as needed.

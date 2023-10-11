@@ -1,9 +1,9 @@
 {
   "name": "react-fragmate",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "type": "module",
-  "main": "index.js",
-  "repository": "https://github.com/your-username/react-fragmate.git",
-  "author": "",
+  "main": "Fragmate.js",
+  "repository": "https://github.com/AibSyed/react-fragmate.git",
+  "author": "Aib Syed",
   "license": "MIT"
 }
