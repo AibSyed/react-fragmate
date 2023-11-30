@@ -1,9 +1,39 @@
 {
   "name": "react-fragmate",
-  "version": "1.1.0",
+  "version": "1.2.0",
+  "description": "A utility for handling HTML parsing in React, removing unwanted wrappers added by dangerouslySetInnerHTML",
   "type": "module",
   "main": "Fragmate.js",
   "repository": "https://github.com/AibSyed/react-fragmate.git",
   "author": "Aib Syed",
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "Fragmate.js"
+  ],
+  "keywords": [
+    "react",
+    "html",
+    "parsing",
+    "dangerouslySetInnerHTML",
+    "utility",
+    "wrapper",
+    "react-component",
+    "html-processing",
+    "web-development",
+    "jsx",
+    "html-cleanup",
+    "react-utility",
+    "front-end",
+    "web-components",
+    "markup",
+    "DOM-manipulation",
+    "HTML-string",
+    "html-download",
+    "html-export",
+    "download-html",
+    "export-html"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
