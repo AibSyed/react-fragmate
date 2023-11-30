@@ -1,6 +1,8 @@
 # React-Fragmate
 
-React-Fragmate is a lightweight and easy-to-use utility designed to handle HTML parsing in React applications. It is particularly useful for removing unwanted wrappers generated when rendering HTML strings using React's `dangerouslySetInnerHTML`. React-Fragmate ensures that your final HTML output is clean and free of unnecessary React-specific wrapping elements. With ES Modules, adherence to modern coding standards, and no dependencies, integrating and using React-Fragmate is straightforward.
+React-Fragmate is a lightweight and easy-to-use utility designed to handle HTML parsing in React applications. It is particularly useful for removing unwanted wrappers generated when rendering HTML strings using React's `dangerouslySetInnerHTML`. 
+
+React-Fragmate ensures that your final HTML output is clean and free of unnecessary React-specific wrapping elements. With ES Modules, adherence to modern coding standards, and no dependencies, integrating and using React-Fragmate is straightforward.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -44,6 +46,7 @@ npm install react-fragmate
           <div>Some content</div>
         </body>
       </html>`;
+
     const processedHtml = Fragmate(htmlString);
     
     // Output: the entire HTML document as a string
@@ -76,6 +79,7 @@ npm install react-fragmate
           <div>Downloadable content</div>
         </body>
       </html>`;
+
     const cleanHtmlForDownload = Fragmate(htmlForDownload);
 
     // Trigger download of the processed HTML content
